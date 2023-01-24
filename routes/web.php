@@ -13,6 +13,19 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+
+
+Route::get('/', function () {return view('welcome');});
+
+Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');});
+Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');});
+Route::get('/hotel', function () {return view('hotel.hotel');});
+Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');});
+Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');});
+
+
 Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/sosialisasi', function() { return view('sosialisasi.index'); })->name('sosialisasi');
     Route::get('/pelatihan-a', function() { return view('pelatihan-a.index'); })->name('pelatihan-a');
