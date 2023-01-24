@@ -262,6 +262,21 @@
             <li><a class="nav-link" href="{{ route('admin.pelatihan-c') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan C</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.pendampingan') }}"><i class="fas fa-pencil-ruler"></i><span>Pendampingan</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-pencil-ruler"></i><span>Apresiasi</span></a></li>
+
+            <li class="menu-header">Narasumber</li>
+            <li><a class="nav-link" href="{{ route('admin.narasumber') }}"><i class="fas fa-pencil-ruler"></i><span>Narasumber</span></a></li>
+
+            <li class="menu-header">Desa Wisata</li>
+            <li><a class="nav-link" href="{{ route('admin.desaWisata') }}"><i class="fas fa-pencil-ruler"></i><span>Desa Wisata</span></a></li>
+
+            <li class="menu-header">Hotel</li>
+            <li><a class="nav-link" href="{{ route('admin.hotel') }}"><i class="fas fa-pencil-ruler"></i><span>Hotel</span></a></li>
+
+            <li class="menu-header">Proposal Desa</li>
+            <li><a class="nav-link" href="{{ route('admin.proposalDesa') }}"><i class="fas fa-pencil-ruler"></i><span>Proposal Desa</span></a></li>
+
+            <li class="menu-header">Laporan Bulanan</li>
+            <li><a class="nav-link" href="{{ route('admin.laporanBulanan') }}"><i class="fas fa-pencil-ruler"></i><span>Laporan Bulanan</span></a></li>
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
