@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', function () {return view('welcome');});
+
+Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');});
+Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');});
+Route::get('/hotel', function () {return view('hotel.hotel');});
+Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');});
+Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');});
+
+
+
+
+
+
