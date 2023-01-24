@@ -35,5 +35,8 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/hotel', function () {return view('hotel.hotel');})->name('hotel');;
     Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');})->name('proposalDesa');;
     Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');})->name('laporanBulanan');;
+    Route::get('/preTest', function () {return view('Soal.soalPreTest');})->name('preTest');;
+    Route::get('/postTest', function () {return view('Soal.soalPostTest');})->name('postTest');;
+    Route::get('/evaluasi', function () {return view('Soal.soalEvaluasi');})->name('evaluasi');;
 });
 

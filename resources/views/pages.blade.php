@@ -266,6 +266,16 @@
             <li class="menu-header">Narasumber</li>
             <li><a class="nav-link" href="{{ route('admin.narasumber') }}"><i class="fas fa-pencil-ruler"></i><span>Narasumber</span></a></li>
 
+            <li class="menu-header">Soal</li>
+            <li class="dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Soal</span></a>
+              <ul class="dropdown-menu" style="display: block;">
+                <li><a class="nav-link" href="{{ route('admin.preTest') }}">Soal Pretest</a></li>
+                <li><a class="nav-link" href="{{ route('admin.postTest') }}">Soal PostTest</a></li>
+                <li><a class="nav-link" href="{{ route('admin.evaluasi') }}">Soal Evaluasi</a></li>
+              </ul>
+            </li>
+
             <li class="menu-header">Desa Wisata</li>
             <li><a class="nav-link" href="{{ route('admin.desaWisata') }}"><i class="fas fa-pencil-ruler"></i><span>Desa Wisata</span></a></li>
 
@@ -277,6 +287,8 @@
 
             <li class="menu-header">Laporan Bulanan</li>
             <li><a class="nav-link" href="{{ route('admin.laporanBulanan') }}"><i class="fas fa-pencil-ruler"></i><span>Laporan Bulanan</span></a></li>
+
+           
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
