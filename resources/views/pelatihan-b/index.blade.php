@@ -36,11 +36,14 @@
                 <th class="text-center">
                   <i class="fas fa-th"></i>
                 </th>
-                <th>Task Name</th>
-                <th>Progress</th>
-                <th>Members</th>
-                <th>Due Date</th>
-                <th>Status</th>
+                <th>Materi Narasumber 1</th>
+                <th>Materi Narasumber 2</th>
+                <th>Materi Narasumber 3</th>
+                <th>Materi Narasumber 4</th>
+                <th>Daftar Peserta</th>
+                <th>Evaluasi Pelatihan</th>
+                <th>Evaluasi Narasumber</th>
+                <th>Lampiran</th>
                 <th>Action</th>
               </tr>
             </thead>
