@@ -256,6 +256,7 @@
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Kegiatan</li>
+
             <li><a class="nav-link" href="{{ route('admin.sosialisasi') }}"><i class="fas fa-th"></i><span>Sosialisasi</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.pelatihan-a') }}"><i class="fas fa-th"></i><span>Pelatihan A</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.pelatihan-b') }}"><i class="fas fa-th"></i><span>Pelatihan B</span></a></li>
@@ -263,6 +264,44 @@
             <li><a class="nav-link" href="{{ route('admin.pendampingan') }}"><i class="fas fa-th"></i><span>Pendampingan</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-th"></i><span>Apresiasi</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.publikasi') }}"><i class="fas fa-th"></i><span>Publikasi</span></a></li>
+
+            <li><a class="nav-link" href="{{ route('admin.sosialisasi') }}"><i class="fas fa-pencil-ruler"></i><span>Sosialisasi</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-a') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan A</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-b') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan B</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-c') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan C</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pendampingan') }}"><i class="fas fa-pencil-ruler"></i><span>Pendampingan</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-pencil-ruler"></i><span>Apresiasi</span></a></li>
+
+            <li class="menu-header">Narasumber</li>
+            <li><a class="nav-link" href="{{ route('admin.narasumber') }}"><i class="fas fa-pencil-ruler"></i><span>Narasumber</span></a></li>
+
+            <li class="menu-header">Soal</li>
+            <li class="dropdown">
+              <a href="#" class="nav-link has-dropdown" data-toggle="dropdown"><i class="fas fa-columns"></i> <span>Soal</span></a>
+              <ul class="dropdown-menu" style="display: block;">
+                <li><a class="nav-link" href="{{ route('admin.preTest') }}">Soal Pretest</a></li>
+                <li><a class="nav-link" href="{{ route('admin.postTest') }}">Soal PostTest</a></li>
+                <li><a class="nav-link" href="{{ route('admin.evaluasi') }}">Soal Evaluasi</a></li>
+              </ul>
+            </li>
+
+            <li class="menu-header">Desa Wisata</li>
+            <li><a class="nav-link" href="{{ route('admin.desaWisata') }}"><i class="fas fa-pencil-ruler"></i><span>Desa Wisata</span></a></li>
+
+            <li class="menu-header">Local Champion</li>
+            <li><a class="nav-link" href="{{ route('admin.localChampion') }}"><i class="fas fa-pencil-ruler"></i><span>Local Champion</span></a></li>
+
+            <li class="menu-header">Hotel</li>
+            <li><a class="nav-link" href="{{ route('admin.hotel') }}"><i class="fas fa-pencil-ruler"></i><span>Hotel</span></a></li>
+
+            <li class="menu-header">Proposal Desa</li>
+            <li><a class="nav-link" href="{{ route('admin.proposalDesa') }}"><i class="fas fa-pencil-ruler"></i><span>Proposal Desa</span></a></li>
+
+            <li class="menu-header">Laporan Bulanan</li>
+            <li><a class="nav-link" href="{{ route('admin.laporanBulanan') }}"><i class="fas fa-pencil-ruler"></i><span>Laporan Bulanan</span></a></li>
+
+           
+
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">

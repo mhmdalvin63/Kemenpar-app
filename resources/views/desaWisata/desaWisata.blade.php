@@ -40,12 +40,15 @@
                 <th>Desa Wisata</th> 
                 <th>Kabupaten</th> 
                 <th>Kecamatan</th> 
-                <th>LC</th> 
+                <th>Kota</th> 
+                <th>Provinsi</th> 
+                <th>Nama Kepala Desa</th> 
+                <th>Nama Pokdarwis</th> 
                 <th>Aksi</th> 
               </tr> 
             </thead> 
             <tbody class="ui-sortable"> 
-                <tr> 
+                  <tr> 
                     <td> 
                       <div class="sort-handler ui-sortable-handle text-center"> 
                         <i class="fas fa-th"></i> 
@@ -62,27 +65,11 @@
                     </td> 
                     <td>2018-01-20</td> 
                     <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
                     <td><a href="#" class="btn btn-secondary">Detail</a></td> 
                   </tr> 
-              <tr> 
-                <td> 
-                  <div class="sort-handler ui-sortable-handle text-center"> 
-                    <i class="fas fa-th"></i> 
-                  </div> 
-                </td> 
-                <td>Create a mobile app</td> 
-                <td class="align-middle"> 
-                  <div class="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style="height: 4px;"> 
-                    <div class="progress-bar bg-success" data-width="100" style="width: 100px;"></div> 
-                  </div> 
-                </td> 
-                <td> 
-                  <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="" data-original-title="Wildan Ahdian"> 
-                </td> 
-                <td>2018-01-20</td> 
-                <td><div class="badge badge-success">Completed</div></td> 
-                <td><a href="#" class="btn btn-secondary">Detail</a></td> 
-              </tr> 
             </tbody> 
           </table> 
         </div> 
@@ -102,15 +89,11 @@
       </div> 
       <div class="modal-body"> 
         <div class="form-group">
+          <label>DPP</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
             <label>Desa Wisata</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <label>DPP</label>
-            <input type="number" class="form-control">
-        </div>
-        <div class="form-group">
-            <label>Local Champion</label>
             <input type="text" class="form-control">
         </div>
         <div class="form-group">
@@ -119,6 +102,22 @@
         </div>
         <div class="form-group">
             <label>Kecamatan</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Kota</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Provinsi</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Nama Kepala Desa</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Nama Pokdarwis</label>
             <input type="text" class="form-control">
         </div>
       </div> 

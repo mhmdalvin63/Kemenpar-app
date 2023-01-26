@@ -36,12 +36,16 @@
                 <th class="text-center"> 
                   <i class="fas fa-th"></i> 
                 </th> 
-                <th>Nama Panjang</th> 
+                <th>Nama</th> 
                 <th>CV</th> 
                 <th>Email</th> 
                 <th>No.HP</th> 
                 <th>NIK</th> 
                 <th>Alamat</th> 
+                <th>Password</th> 
+                <th>Intansi</th> 
+                <th>Jabatan</th> 
+                <th>Aksi</th> 
               </tr> 
             </thead> 
             <tbody class="ui-sortable"> 
@@ -62,27 +66,12 @@
                     </td> 
                     <td>2018-01-20</td> 
                     <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
                     <td><a href="#" class="btn btn-secondary">Detail</a></td> 
                   </tr> 
-              <tr> 
-                <td> 
-                  <div class="sort-handler ui-sortable-handle text-center"> 
-                    <i class="fas fa-th"></i> 
-                  </div> 
-                </td> 
-                <td>Create a mobile app</td> 
-                <td class="align-middle"> 
-                  <div class="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style="height: 4px;"> 
-                    <div class="progress-bar bg-success" data-width="100" style="width: 100px;"></div> 
-                  </div> 
-                </td> 
-                <td> 
-                  <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="" data-original-title="Wildan Ahdian"> 
-                </td> 
-                <td>2018-01-20</td> 
-                <td><div class="badge badge-success">Completed</div></td> 
-                <td><a href="#" class="btn btn-secondary">Detail</a></td> 
-              </tr> 
             </tbody> 
           </table> 
         </div> 
@@ -124,6 +113,18 @@
       <label>Alamat</label>
       <textarea class="form-control"></textarea>
   </div> 
+  <div class="form-group">
+    <label>Password</label>
+    <input type="password" class="form-control">
+  </div>
+<div class="form-group">
+  <label>Intansi</label>
+  <input type="text" class="form-control">
+</div>
+<div class="form-group">
+  <label>Jabatan</label>
+  <input type="text" class="form-control">
+</div>
       </div> 
       <div class="modal-footer bg-whitesmoke br"> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 

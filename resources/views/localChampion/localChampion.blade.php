@@ -1,5 +1,5 @@
 @extends('pages') 
-@section('title', 'Proposal Desa')
+@section('title', 'Local Champion')
 @section('content') 
 <style> 
   .modal-backdrop { 
@@ -36,10 +36,19 @@
                 <th class="text-center"> 
                   <i class="fas fa-th"></i> 
                 </th> 
-                <th>DPP</th> 
-                <th>Desa Wisata</th> 
-                <th>Judul</th> 
-                <th>File</th> 
+                <th>Nama</th> 
+                <th>Tempat Lahir</th> 
+                <th>Tanggal Lahir</th> 
+                <th>Jenis Kelamin</th> 
+                <th>NIK</th> 
+                <th>NPWP</th> 
+                <th>No.HP</th> 
+                <th>Pekerjaan</th> 
+                <th>Pendidikan Terakhir</th> 
+                <th>Aktivitas</th> 
+                <th>No. Rek</th> 
+                <th>Nama Bank</th> 
+                <th>Nama Rek</th> 
                 <th>Aksi</th> 
               </tr> 
             </thead> 
@@ -60,6 +69,15 @@
                       <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="" data-original-title="Wildan Ahdian"> 
                     </td> 
                     <td>2018-01-20</td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
+                    <td><div class="badge badge-success">Completed</div></td> 
                     <td><a href="#" class="btn btn-secondary">Detail</a></td> 
                   </tr> 
             </tbody> 
@@ -69,6 +87,7 @@
     </div> 
   </div> 
 </div> 
+
 <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal" style="display: none; background-color: transparent;" aria-hidden="true"> 
   <div class="modal-dialog" role="document"> 
     <div class="modal-content"> 
@@ -80,29 +99,63 @@
       </div> 
       <div class="modal-body"> 
         <div class="form-group">
-          <label>DPP</label>
+            <label>Nama Lengkap</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Tempat Lahir</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Tanggal Lahir</label>
+            <input type="date" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jenis Kelamin</label>
           <select class="form-control">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
+            <option>Laki-Laki</option>
+            <option>Perempuan</option>
           </select>
         </div>
         <div class="form-group">
-          <label>Desa Wisata</label>
-          <select class="form-control">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
+          <label>NIK</label>
+          <input type="number" class="form-control">
         </div>
-          <div class="form-group">
-            <label>Judul</label>
-            <input type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <label>File</label>
-            <input type="file" class="form-control">
-          </div>
+        <div class="form-group">
+          <label>NPWP</label>
+          <input type="number" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>No.HP</label>
+          <input type="number" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Pekerjaan</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Pendidikan Terakhir</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Aktivitas</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>No.Rek</label>
+          <input type="number" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Nama Bank</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Nama Rekening</label>
+          <input type="text" class="form-control">
+        </div>
+
+
+
       </div> 
       <div class="modal-footer bg-whitesmoke br"> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 

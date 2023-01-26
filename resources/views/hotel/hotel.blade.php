@@ -36,15 +36,18 @@
                 <th class="text-center"> 
                   <i class="fas fa-th"></i> 
                 </th> 
+                <th>Provinsi</th> 
+                <th>Kota</th> 
+                <th>Kecamatan</th> 
+                <th>Kelurahan</th> 
                 <th>Nama Hotel</th> 
-                <th>Tipe</th> 
-                <th>Fasilitas</th> 
-                <th>Alamat</th>
+                <th>Alamat</th> 
+                <th>No.HP</th> 
                 <th>Aksi</th> 
               </tr> 
             </thead> 
             <tbody class="ui-sortable"> 
-                <tr> 
+                  <tr> 
                     <td> 
                       <div class="sort-handler ui-sortable-handle text-center"> 
                         <i class="fas fa-th"></i> 
@@ -62,24 +65,6 @@
                     <td>2018-01-20</td> 
                     <td><a href="#" class="btn btn-secondary">Detail</a></td> 
                   </tr> 
-              <tr> 
-                <td> 
-                  <div class="sort-handler ui-sortable-handle text-center"> 
-                    <i class="fas fa-th"></i> 
-                  </div> 
-                </td> 
-                <td>Create a mobile app</td> 
-                <td class="align-middle"> 
-                  <div class="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style="height: 4px;"> 
-                    <div class="progress-bar bg-success" data-width="100" style="width: 100px;"></div> 
-                  </div> 
-                </td> 
-                <td> 
-                  <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="" data-original-title="Wildan Ahdian"> 
-                </td> 
-                <td>2018-01-20</td> 
-                <td><a href="#" class="btn btn-secondary">Detail</a></td> 
-              </tr> 
             </tbody> 
           </table> 
         </div> 
@@ -99,21 +84,33 @@
       </div> 
       <div class="modal-body"> 
         <div class="form-group">
+            <label>Provinsi</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Kota</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Kecamatan</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+            <label>Kelurahan</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
             <label>Nama Hotel</label>
             <input type="text" class="form-control">
         </div>
         <div class="form-group">
-            <label>Tipe Hotel</label>
-            <input type="text" class="form-control">
-        </div>
-        <div class="form-group">
-            <label>Fasilitas</label>
-            <textarea class="form-control"></textarea>
-        </div> 
-        <div class="form-group">
             <label>Alamat</label>
             <textarea class="form-control"></textarea>
         </div> 
+        <div class="form-group">
+          <label>No.Hp</label>
+          <input type="text" class="form-control">
+      </div>
       </div> 
       <div class="modal-footer bg-whitesmoke br"> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 

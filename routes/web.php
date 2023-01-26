@@ -19,11 +19,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {return view('welcome');});
 
-Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');});
-Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');});
-Route::get('/hotel', function () {return view('hotel.hotel');});
-Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');});
-Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');});
+
 
 Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/sosialisasi', function() { return view('sosialisasi.index'); })->name('sosialisasi');
@@ -32,6 +28,19 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/pelatihan-c', function() { return view('pelatihan-c.index'); })->name('pelatihan-c');
     Route::get('/pendampingan', function() { return view('pendampingan.index'); })->name('pendampingan');
     Route::get('/apresiasi', function() { return view('apresiasi.index'); })->name('apresiasi');
+
     Route::get('/publikasi', function() { return view('publikasi.index'); })->name('publikasi');
+
+
+    Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');})->name('narasumber');;
+    Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');})->name('desaWisata');;
+    Route::get('/localChampion', function () {return view('localChampion.localChampion');})->name('localChampion');;
+    Route::get('/hotel', function () {return view('hotel.hotel');})->name('hotel');;
+    Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');})->name('proposalDesa');;
+    Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');})->name('laporanBulanan');;
+    Route::get('/preTest', function () {return view('Soal.soalPreTest');})->name('preTest');;
+    Route::get('/postTest', function () {return view('Soal.soalPostTest');})->name('postTest');;
+    Route::get('/evaluasi', function () {return view('Soal.soalEvaluasi');})->name('evaluasi');;
+
 });
 

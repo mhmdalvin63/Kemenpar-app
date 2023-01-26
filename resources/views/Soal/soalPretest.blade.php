@@ -1,5 +1,5 @@
 @extends('pages') 
-@section('title', 'Proposal Desa')
+@section('title', 'Soal Pretest')
 @section('content') 
 <style> 
   .modal-backdrop { 
@@ -36,32 +36,17 @@
                 <th class="text-center"> 
                   <i class="fas fa-th"></i> 
                 </th> 
-                <th>DPP</th> 
-                <th>Desa Wisata</th> 
-                <th>Judul</th> 
-                <th>File</th> 
-                <th>Aksi</th> 
+                <th>Soal Pre Test</th>
+                <th>Jawaban A</th>
+                <th>Jawaban B</th>
+                <th>Jawaban C</th>
+                <th>Jawaban D</th>
+                <th>Jawaban Benar</th>
+                <th>Aksi</th>
               </tr> 
             </thead> 
             <tbody class="ui-sortable"> 
-                <tr> 
-                    <td> 
-                      <div class="sort-handler ui-sortable-handle text-center"> 
-                        <i class="fas fa-th"></i> 
-                      </div> 
-                    </td> 
-                    <td>Muhammad Alvin</td> 
-                    <td class="align-middle"> 
-                      <div class="progress" data-height="4" data-toggle="tooltip" title="" data-original-title="100%" style="height: 4px;"> 
-                        <div class="progress-bar bg-success" data-width="100" style="width: 100px;"></div> 
-                      </div> 
-                    </td> 
-                    <td> 
-                      <img alt="image" src="assets/img/avatar/avatar-5.png" class="rounded-circle" width="35" data-toggle="tooltip" title="" data-original-title="Wildan Ahdian"> 
-                    </td> 
-                    <td>2018-01-20</td> 
-                    <td><a href="#" class="btn btn-secondary">Detail</a></td> 
-                  </tr> 
+                
             </tbody> 
           </table> 
         </div> 
@@ -80,29 +65,29 @@
       </div> 
       <div class="modal-body"> 
         <div class="form-group">
-          <label>DPP</label>
-          <select class="form-control">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
+          <label>Soal Pre Test</label>
+          <textarea class="form-control"></textarea>
+        </div> 
+        <div class="form-group">
+          <label>Jawaban A</label>
+          <input type="text" class="form-control">
         </div>
         <div class="form-group">
-          <label>Desa Wisata</label>
-          <select class="form-control">
-            <option>Option 1</option>
-            <option>Option 2</option>
-            <option>Option 3</option>
-          </select>
+          <label>Jawaban B</label>
+          <input type="text" class="form-control">
         </div>
-          <div class="form-group">
-            <label>Judul</label>
-            <input type="text" class="form-control">
-          </div>
-          <div class="form-group">
-            <label>File</label>
-            <input type="file" class="form-control">
-          </div>
+        <div class="form-group">
+          <label>Jawaban C</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban D</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban Benar</label>
+          <input type="text" class="form-control">
+        </div>
       </div> 
       <div class="modal-footer bg-whitesmoke br"> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 
