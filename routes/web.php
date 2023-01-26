@@ -25,7 +25,6 @@ Route::get('/hotel', function () {return view('hotel.hotel');});
 Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');});
 Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');});
 
-
 Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/sosialisasi', function() { return view('sosialisasi.index'); })->name('sosialisasi');
     Route::get('/pelatihan-a', function() { return view('pelatihan-a.index'); })->name('pelatihan-a');
@@ -33,5 +32,6 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/pelatihan-c', function() { return view('pelatihan-c.index'); })->name('pelatihan-c');
     Route::get('/pendampingan', function() { return view('pendampingan.index'); })->name('pendampingan');
     Route::get('/apresiasi', function() { return view('apresiasi.index'); })->name('apresiasi');
+    Route::get('/publikasi', function() { return view('publikasi.index'); })->name('publikasi');
 });
 
