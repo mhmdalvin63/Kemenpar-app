@@ -265,12 +265,6 @@
             <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-th"></i><span>Apresiasi</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.publikasi') }}"><i class="fas fa-th"></i><span>Publikasi</span></a></li>
 
-            <li><a class="nav-link" href="{{ route('admin.sosialisasi') }}"><i class="fas fa-pencil-ruler"></i><span>Sosialisasi</span></a></li>
-            <li><a class="nav-link" href="{{ route('admin.pelatihan-a') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan A</span></a></li>
-            <li><a class="nav-link" href="{{ route('admin.pelatihan-b') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan B</span></a></li>
-            <li><a class="nav-link" href="{{ route('admin.pelatihan-c') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan C</span></a></li>
-            <li><a class="nav-link" href="{{ route('admin.pendampingan') }}"><i class="fas fa-pencil-ruler"></i><span>Pendampingan</span></a></li>
-            <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-pencil-ruler"></i><span>Apresiasi</span></a></li>
 
             <li class="menu-header">Narasumber</li>
             <li><a class="nav-link" href="{{ route('admin.narasumber') }}"><i class="fas fa-pencil-ruler"></i><span>Narasumber</span></a></li>
