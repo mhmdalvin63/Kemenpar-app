@@ -36,13 +36,13 @@
                 <th class="text-center"> 
                   <i class="fas fa-th"></i> 
                 </th> 
-                <th>Desa/Kelurahan</th> 
-                <th>Kecamatan</th> 
-                <th>Kabupaten</th> 
-                <th>Tanggal Pengajuan</th> 
-                <th>Alamat</th> 
-                <th>No.Telepon</th> 
-                <th>Aksi</th> 
+                <th>Soal Evaluasi</th>
+                <th>Jawaban A</th>
+                <th>Jawaban B</th>
+                <th>Jawaban C</th>
+                <th>Jawaban D</th>
+                <th>Jawaban Benar</th>
+                <th>Aksi</th>
               </tr> 
             </thead> 
             <tbody class="ui-sortable"> 
@@ -64,7 +64,30 @@
         </button> 
       </div> 
       <div class="modal-body"> 
-            <h1>ini diisi pertanyaan</h1>
+        <div class="form-group">
+          <label>Soal Evaluasi</label>
+          <textarea class="form-control"></textarea>
+        </div> 
+        <div class="form-group">
+          <label>Jawaban A</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban B</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban C</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban D</label>
+          <input type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Jawaban Benar</label>
+          <input type="text" class="form-control">
+        </div>
       </div> 
       <div class="modal-footer bg-whitesmoke br"> 
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> 

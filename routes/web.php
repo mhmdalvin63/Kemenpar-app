@@ -32,6 +32,7 @@ Route::prefix('admin')->name('admin.')->group(function(){
 
     Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');})->name('narasumber');;
     Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');})->name('desaWisata');;
+    Route::get('/localChampion', function () {return view('localChampion.localChampion');})->name('localChampion');;
     Route::get('/hotel', function () {return view('hotel.hotel');})->name('hotel');;
     Route::get('/proposalDesa', function () {return view('proposalDesa.proposalDesa');})->name('proposalDesa');;
     Route::get('/laporanBulanan', function () {return view('laporanBulanan.laporanBulanan');})->name('laporanBulanan');;

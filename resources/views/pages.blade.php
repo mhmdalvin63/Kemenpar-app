@@ -279,6 +279,9 @@
             <li class="menu-header">Desa Wisata</li>
             <li><a class="nav-link" href="{{ route('admin.desaWisata') }}"><i class="fas fa-pencil-ruler"></i><span>Desa Wisata</span></a></li>
 
+            <li class="menu-header">Local Champion</li>
+            <li><a class="nav-link" href="{{ route('admin.localChampion') }}"><i class="fas fa-pencil-ruler"></i><span>Local Champion</span></a></li>
+
             <li class="menu-header">Hotel</li>
             <li><a class="nav-link" href="{{ route('admin.hotel') }}"><i class="fas fa-pencil-ruler"></i><span>Hotel</span></a></li>
 
