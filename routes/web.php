@@ -21,7 +21,6 @@ Route::get('/', function () {return view('welcome');});
 
 
 
-
 Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/sosialisasi', function() { return view('sosialisasi.index'); })->name('sosialisasi');
     Route::get('/pelatihan-a', function() { return view('pelatihan-a.index'); })->name('pelatihan-a');
@@ -29,6 +28,9 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/pelatihan-c', function() { return view('pelatihan-c.index'); })->name('pelatihan-c');
     Route::get('/pendampingan', function() { return view('pendampingan.index'); })->name('pendampingan');
     Route::get('/apresiasi', function() { return view('apresiasi.index'); })->name('apresiasi');
+
+    Route::get('/publikasi', function() { return view('publikasi.index'); })->name('publikasi');
+
 
     Route::get('/tambahNarasumber', function () {return view('Narasumber.listNarasumber');})->name('narasumber');;
     Route::get('/desaWisata', function () {return view('desaWisata.desaWisata');})->name('desaWisata');;
@@ -39,5 +41,6 @@ Route::prefix('admin')->name('admin.')->group(function(){
     Route::get('/preTest', function () {return view('Soal.soalPreTest');})->name('preTest');;
     Route::get('/postTest', function () {return view('Soal.soalPostTest');})->name('postTest');;
     Route::get('/evaluasi', function () {return view('Soal.soalEvaluasi');})->name('evaluasi');;
+
 });
 

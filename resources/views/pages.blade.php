@@ -256,6 +256,15 @@
           </div>
           <ul class="sidebar-menu">
             <li class="menu-header">Kegiatan</li>
+
+            <li><a class="nav-link" href="{{ route('admin.sosialisasi') }}"><i class="fas fa-th"></i><span>Sosialisasi</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-a') }}"><i class="fas fa-th"></i><span>Pelatihan A</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-b') }}"><i class="fas fa-th"></i><span>Pelatihan B</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pelatihan-c') }}"><i class="fas fa-th"></i><span>Pelatihan C</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.pendampingan') }}"><i class="fas fa-th"></i><span>Pendampingan</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.apresiasi') }}"><i class="fas fa-th"></i><span>Apresiasi</span></a></li>
+            <li><a class="nav-link" href="{{ route('admin.publikasi') }}"><i class="fas fa-th"></i><span>Publikasi</span></a></li>
+
             <li><a class="nav-link" href="{{ route('admin.sosialisasi') }}"><i class="fas fa-pencil-ruler"></i><span>Sosialisasi</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.pelatihan-a') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan A</span></a></li>
             <li><a class="nav-link" href="{{ route('admin.pelatihan-b') }}"><i class="fas fa-pencil-ruler"></i><span>Pelatihan B</span></a></li>
@@ -292,6 +301,7 @@
             <li><a class="nav-link" href="{{ route('admin.laporanBulanan') }}"><i class="fas fa-pencil-ruler"></i><span>Laporan Bulanan</span></a></li>
 
            
+
           </ul>
 
           <div class="mt-4 mb-4 p-3 hide-sidebar-mini">
@@ -306,11 +316,6 @@
         <section class="section">
           <div class="section-header">
             <h1>@yield('title')</h1>
-            <div class="section-header-breadcrumb">
-              <div class="breadcrumb-item active"><a href="#">Dashboard</a></div>
-              <div class="breadcrumb-item"><a href="#">Layout</a></div>
-              <div class="breadcrumb-item">Default Layout</div>
-            </div>
           </div>
 
           <div class="section-body">
