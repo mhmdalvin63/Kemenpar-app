@@ -54,7 +54,7 @@
 </div>
 <div class="modal fade" tabindex="-1" role="dialog" id="exampleModal" style="display: none; background-color: transparent;" aria-hidden="true">
   <div class="modal-dialog modal-lg" role="document">
-    <div class="modal-content col-md-12">
+    <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title">Form Kegiatan Sosialisasi</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
